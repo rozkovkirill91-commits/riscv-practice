@@ -1,0 +1,12 @@
+RARS 1.6 / RV32; student=15; group=118; array length=31
+PASS: A: 15 -> 1
+PASS: A: 14 -> 0
+PASS: A: -15 -> 0
+PASS: B: 70 -> 70,85,100,115
+PASS: B: 163 -> 118,133,148,163
+PASS: B: 118 -> 118
+PASS: B: 125 -> 118
+PASS: C: zero first, count=1, ignores 99
+PASS: C: stores 7,-3,0; count=3; ignores 99
+PASS: C: fills 31 values; count=31; ignores 99
+PASS: C: zero in final slot; count=31
